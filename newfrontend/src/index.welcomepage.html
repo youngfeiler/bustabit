@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome Page</title>
+	<link rel="stylesheet" type="text/css" href="css/indexcss.css">
+</head>
+<body>
+  <div style="width:1920px;height:500px" class="box2">
+  </div>
+  
+  <div>
+   <a class="btn23" id="btn23"href="./App.js"><img src="./images/play button@2x.png" img style="position:absolute; widows: 300px; height:300px ;top:52%; left:45%" ></a>
+    
+  </div>
+  <div>
+    <a class="btn24" id="btn24" href="faqpage.html"><img src="./images/Group 7@2x.png" img style="position:absolute; widows: 300px; height:300px ;top:52%; left:70%" ></a>
+    
+  </div>
+
+  <div>
+    <img src="./images/Group 9@2x.png" img style="position:absolute; widows: 300px; height:300px ;top:6%; left:57%" >
+    
+  </div>
+
+  <div style="position:absolute; widows: 300px; height:300px ;top:12%; left:8%" >
+    <p style="font-size:400%">Bit Gambling</p>
+    
+  </div>
+  <div style="position:absolute; widows: 300px; height:300px ;top:37%; left:8%" >
+    <p style="font-size:100%; color: #2c3148">The number 1 crypto currency social
+      <p style="color: #2c3148"> gambling site. Test your luck and win big </p><p style="color: #2c3148"> by getting out before the curve crashes.</p></p>
+    
+  </div>
+
+  <div style="position:absolute; widows: 300px; height:300px ;top:3%; left:8%" >
+    <p style="font-size:400%"><b>Just A Bit:<b></p>
+    
+  </div>
+  
+ 
+
+ 
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container" style= "top:71%; left:20%">
+      <a href="#" class="button" id="button">Login/Signup</a>
+    </div>
+  
+    <!--POPUP PAGES-->
+    <div class="popup">
+      <!--LOGIN PAGE-->
+     <div id ="error"></div>
+      <form action="results.html" id="loginPage" class="login-page">
+        <img src="close.png" alt="Close" class="close" width="20" height="20">
+        <img src="account.png" alt="Account" width="90" height="100">
+        <input type="text" placeholder="Username" id="username" name="username">
+        <input type="password" placeholder="Password" id="password" name="password">
+        <input type="submit" name="LoginButton" class="login_button" value="Login">
+        <p class="message">Not signed up yet? <a href="#">Create an account</a></p>
+      </form>
+     <!--SIGNUP PAGE-->
+      <form id="signupPage" class="signup-page">
+        <img src="close.png" alt="Closes" class="closes" width="20" height="20">
+        <img src="account.png" alt="Account" width="90" height="100">
+        <input type="text" placeholder="Email" id="Email" name="email">
+        <input type="text" placeholder="Username" id="username" name="username">
+        <input type="password" placeholder="Password" id="password" name="password">
+        <input type="submit" name="CreateAccountButton" class="signup_button" onclick="alert('this doesnt work yet. p.s. micah stinks')" value="Create Acount">
+        <p class="message">Already have an account? <a href="#">Login</a></p>
+      </form>
+    </div>
+  
+    <!--JQUERY ANIMATION-->
+    <script src='https://code.jquery.com/jquery-3.5.1.min.js'>
+    </script>
+  
+    <script>
+      $('.message a').click(function(){
+      $('form').animate({width: "toggle", opacity: "toggle"}, "slow");
+      });
+    </script>
+  
+  <!--OPENING/CLOSING POPUP FUNCTIONS-->
+    <script>
+  
+      document.getElementById("button").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "flex";
+      })
+  
+      document.querySelector(".close").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "none";
+      })
+  
+      document.querySelector(".closes").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "none";
+      })
+
+      
+        
+      
+  
+    </script>
+  
+    <!--FORM VALIDATION-->
+    <script>
+      const email = document.getElementById('email');
+      const username = document.getElementById('username');
+      const password = document.getElementById('password');
+      const loginform = document.getElementById('loginPage');
+      const signupform = document.getElementById('signupPage');
+      const errorElement = document.getElementById('error');
+  
+  
+  
+  
+  
+    </script>
+  
+      
+		
+		
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
