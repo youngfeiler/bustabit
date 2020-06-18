@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/stefanfeiler/Desktop/reactwebsite/my-app/src/CSS/BigBox.css'
+import '../CSS/BigBox.css'
 import BetBox from './BetBox'
 import GameBox from './GameBox'
 

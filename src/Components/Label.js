@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
-import '/Users/stefanfeiler/Desktop/reactwebsite/my-app/src/CSS/Label.css'
+import '../CSS/Label.css'
 
 
 function Label (props){

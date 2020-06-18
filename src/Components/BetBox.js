@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/stefanfeiler/Desktop/reactwebsite/my-app/src/CSS/BetBox.css'
+import '../CSS/BetBox.css'
 import {InputGroup, FormControl, Button} from 'react-bootstrap'
 import Table from './LobbyBox'
 

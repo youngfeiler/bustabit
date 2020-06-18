@@ -1,6 +1,6 @@
 import React from 'react';
 import animLogo from './Images/Animlogo.png'
-import '/Users/stefanfeiler/Desktop/reactwebsite/my-app/src/CSS/LoggedInHeader.css'
+import '../CSS/LoggedInHeader.css'
 import  DrawerToggleButton from './SideDrawer/DrawerToggleButton'
 import { FaPiggyBank } from 'react-icons/fa'
 import { IoIosStats } from 'react-icons/io'

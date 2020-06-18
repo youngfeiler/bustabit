@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap'
-import '/Users/stefanfeiler/Desktop/reactwebsite/my-app/src/CSS/LogButton.css'
+import '../CSS/LogButton.css'
 
 function logButton(props){
   let logValue;
