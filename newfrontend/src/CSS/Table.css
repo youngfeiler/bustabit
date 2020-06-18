@@ -1,0 +1,26 @@
+.mint{
+  color: rgb(0,225,195);
+  font-family: arial;
+  font-weight: normal;
+}
+
+.header{
+  color: rgb(0,225,195);
+  text-align: center;
+  background:none;
+  font-size: 26px;
+  font-family: arial;
+  font-weight: normal;
+}
+
+.tablehead{
+  color: rgb(0,225,195);
+  font-family: arial;
+  font-weight: normal;
+}
+
+.test{
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+}

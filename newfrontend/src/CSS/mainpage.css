@@ -1,0 +1,319 @@
+
+body{
+	background-color:#2E3047;
+	color: #fff;
+	font-family: Verdana;
+}
+
+.mint{
+	color: rgb(0, 255, 195);
+}
+
+.container{
+	background-color: #43455C;
+	margin: 0 0;
+	color:rgb(0, 255, 195);
+}
+#big-num{
+	color:rgb(0, 255, 195);
+	text-shadow: 3px 3px 3px #000, 
+}
+.img{
+	height: 40px;
+	width: 40PX;
+	vertical-align: middle;
+}
+
+#main-navbar{
+	background-color: #43455C;
+	color: rgb(0, 255, 195);
+	border-radius: 3px;
+	border-bottom: solid 1px #fff;
+	padding: 5px 0;
+}
+#main-navbar ul{
+	list-style-type: none;
+	color:rgb(0, 255, 195) ;
+	margin: 0;
+}
+
+#main-navbar li{
+	display: inline;
+	font-family: verdana;
+	font-size: 20px;
+	padding: 10px;
+	color: rgb(0, 255, 195);
+}
+
+#main-navbar a{
+	text-decoration: none;
+	color: rgb(0, 255, 195);
+}
+
+#main-navbar a:hover{
+	color: rgb(35, 101, 85);
+}
+.gamebox {
+	position: relative }
+.gamebox h1 {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%) }
+
+.gamebox{
+	border-radius: 6px;
+	background-color: #ccc;
+	color: black;
+	text-align: center;
+	width: 400px;
+  height: 400px;
+  border: 0px black;
+	box-sizing: border-box;
+	float:left
+}
+
+
+.historybox{
+	background-color: white;
+
+}
+
+#message-container{
+	overflow: scroll;
+	margin: 0p;
+	padding: 0;
+}
+
+#message-container>div:nth-child(even){
+	background-color:#43455C);
+	margin: 0;
+	border-width: 1px;
+	border-color: black;
+}
+
+#message-container>div:nth-child(odd){
+	background-color:#2E3047;
+	margin: 0;
+	border-width: 1px;
+	border-color: black;
+}
+#message-input{
+	background-color:#2E3047;
+	border-style: solid;
+	border-color: black;
+	color: rgb(0, 255, 195);
+	margin: 0;
+}
+.send-btn{
+	background-color: #3C3F58;
+	border-color: black;
+	margin: 0;
+}
+
+.form-control{
+	margin: 0;
+	padding: 0;
+}
+
+#send-container{
+	background-color:#3C3F58;
+	margin-top: 0px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+
+}
+
+.table{
+	border-style: solid;
+	border-width: 2px;
+	margin: 0;
+	border:0;
+	padding: 0;
+	color: rgb(0, 255, 195);
+}
+
+
+#msg-username{
+	color:rgb(209, 186, 153);
+	font-size: 14px;
+	display: inline-block;
+	margin: 0;
+}
+
+#msg-date{
+	color: rgb(27, 130, 104);
+	font-size: 12px;
+	display: inline-block;
+	margin: 0;
+}
+
+#msg-text{
+	display: inline-block;
+	color: rgb(0, 255, 195);
+	margin: 0;
+}
+
+.gamebox{
+	background-color:rgb(156, 158, 180);
+	color:rgb(0, 255, 195);
+	border-style: solid;
+	border-radius: 4px;
+	border-width: 0px;
+	height: 60vh;
+}
+
+.bettingbox{
+	background-color:#43455C;
+	border-style: none;
+	border-radius: 0;
+	height: 60vh;
+}
+
+.place-bet-btn{
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgb(0, 255, 195);
+	margin-bottom: 20px;
+}
+.place-bet-btn:hover{
+	font-family: 'Times New Roman', Times, serif;
+	background-color: rgb(0, 255, 195);
+	margin-bottom: 20px;
+}
+.historybox{
+	background-color:#43455C;
+	color: black;
+	height: 300px;
+	border-width: 0;
+	overflow: auto;
+}
+
+
+.bigbox{
+	border-radius: 6px;
+	background-color: #43455C;
+	height: 65vh;
+}
+
+.chatbox{
+	background-color: #43455C;
+	border-style: none;
+	border-color:black ;
+	border-radius: 5px;
+	height: 20vh;
+	margin-top: 30px;
+	overflow: auto;
+	position: relative;
+}
+
+
+.label{
+	background-color:#2E3047;
+	border-radius: 6px;
+}
+
+.input-group-text{
+	background-color: cadetblue;
+}
+
+.input-group{
+	margin-top: 40px;
+	box-shadow: none;
+}
+
+.bet-form:focus{
+	border-color: none;
+	margin: 0;
+	border:0;
+	background-color: #3C3F58;
+	font-size: 20px;
+	color: rgb(0, 255, 195);
+}
+
+.bet-form{
+	border-color: none;
+	margin: 0;
+	border:0;
+	background-color: #3C3F58;
+	font-size: 14px;
+	color: rgb(0, 255, 195);
+
+}
+
+.bet-btn{
+	background-color: #3C3F58;
+	border-style: none;
+	color: rgb(0, 255, 195);
+}
+
+.bet-bits{
+	background-color: white;
+}
+
+.form-control:focus {
+  border-color:none;
+  box-shadow:none;
+}
+.form-control:focus {
+	border-color: none;
+	box-shadow: none;
+}
+.form-control{
+	border-style: none;
+}
+
+.toptext{
+	font-size: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	color: grey;
+}
+
+#test{
+	border-radius: 6px;
+	text-shadow: 1px 1px 1px white;
+	color: rgb(0, 255, 195);
+	font-weight: ;
+	font-size: 100px;
+	
+
+}
+.testhead{
+	position: fixed;
+}
+
+.nomargin{
+	margin: 0;
+}
+
+.testbox{
+	border-style: solid;
+}
+
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+
+
+}
+
+.stop{
+	position: absolute;
+	bottom: 0;
+}
+
+.namemsg{
+	color: wheat;
+}
+
+.green{
+	color: green;
+
+}
+
+.red{
+	color: red;
+
+}

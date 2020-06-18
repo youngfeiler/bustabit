@@ -1,0 +1,17 @@
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inline{
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.box{
+  background-color: #707793;
+}
