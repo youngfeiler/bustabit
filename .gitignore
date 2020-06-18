@@ -3,8 +3,11 @@ logs
 *.log
 npm-debug.log*
 
-# Intellij IDE
+# intellij IDEA
 .idea
+
+# MacOS
+.DS_Store
 
 # Runtime data
 pids
